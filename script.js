@@ -14,7 +14,6 @@ function btnAdd() {
   displayTodo()
 }
 
-
 function displayTodo() {
   let todoAdd = ''
   storage.reverse().map((e) => {
@@ -36,35 +35,11 @@ function displayTodo() {
 
     todoList.innerHTML = todoAdd
     input.value = ''
-
-    const deleteBtn = document.querySelector('#deleteImg')
-    const todoItem = document.querySelector('#todoItem')
-    console.log(todoItem)
-
-    deleteBtn.addEventListener('click', e => {
-
-    })
-
   })
 }
-
 
 // Если поле пустое - при нажатии на кнопку ничего выводится не будет
 const btn = document.querySelector('.add-field__btn')
 btn.addEventListener('click', e => {
   input.value && btnAdd();
 })
-
-// Удаление задачи
-
-
-
-
-
-
-
-
-
-
-
-

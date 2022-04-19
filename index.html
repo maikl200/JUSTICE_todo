@@ -56,7 +56,8 @@
             <button class="main__header__option__btn">Еще</button>
         </div>
         <div class="main__header__add-field">
-            <input class="add-field__text"
+            <input id="addInput"
+                   class="add-field__text"
                    type="text"
                    placeholder="Введите текст">
             <div class="add-field__btn">
@@ -67,22 +68,12 @@
             </div>
         </div>
     </div>
-    <div class="todo-list">
-        <div class="todo-item">
-            <span>Отдать проект на проверку</span>
-            <div class="todo-item__icons">
-                <img class="todo-item__icon"
-                     src="./assets/icons/trash-icon.svg"
-                     alt="trash-icon">
-                <img class="todo-item__icon"
-                     src="./assets/icons/edit-icon.svg"
-                     alt="edit-icon">
-                <img class="todo-item__icon-mobile"
-                     src="./assets/icons/mobile-ellipse.svg"
-                     alt="mobile-ellipse">
-            </div>
-        </div>
+
+    <div id="todoList"
+         class="todo-list">
+
     </div>
+
 </main>
 <!--MAIN-->
 

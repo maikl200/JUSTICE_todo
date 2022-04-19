@@ -174,7 +174,12 @@
     border-radius: 8px;
     padding: 24px;
 }
-
+.todo-item input {
+    border: 0;
+    outline: none;
+    background: transparent;
+    padding: 0.25rem 0;
+}
 .todo-item__icons img {
     max-width: 20px;
     max-height: 20px;
@@ -432,5 +437,11 @@
     .main__header__options {
         flex-wrap: wrap;
     }
+}
+
+.noneTask {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
 }
 

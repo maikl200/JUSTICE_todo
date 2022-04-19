@@ -85,3 +85,4 @@ const deleteTask = i => {
   localStorage.setItem('TODO', JSON.stringify(storage))
   displayTodo()
 }
+

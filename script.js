@@ -36,15 +36,6 @@ function displayTodo() {
 
     todoList.innerHTML = todoAdd
     input.value = ''
-
-    const deleteBtn = document.querySelector('#deleteImg')
-    const todoItem = document.querySelector('#todoItem')
-    console.log(todoItem)
-
-    deleteBtn.addEventListener('click', e => {
-
-    })
-
   })
 }
 
@@ -54,8 +45,6 @@ const btn = document.querySelector('.add-field__btn')
 btn.addEventListener('click', e => {
   input.value && btnAdd();
 })
-
-// Удаление задачи
 
 
 

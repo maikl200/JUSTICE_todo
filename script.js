@@ -74,7 +74,6 @@ const editTask = (item, index) => {
     if (!editCard.value.length) {
       storage.splice(index, 1)
       localStorage.setItem('TODO', JSON.stringify(storage))
-      return noneTask()
     }
     displayTodo()
   })

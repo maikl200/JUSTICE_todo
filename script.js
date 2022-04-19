@@ -14,7 +14,6 @@ function btnAdd() {
   displayTodo()
 }
 
-
 function displayTodo() {
   let todoAdd = ''
   storage.reverse().map((e) => {
@@ -38,7 +37,6 @@ function displayTodo() {
     input.value = ''
   })
 }
-
 
 // Если поле пустое - при нажатии на кнопку ничего выводится не будет
 const btn = document.querySelector('.add-field__btn')
